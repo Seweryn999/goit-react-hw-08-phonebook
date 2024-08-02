@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #BDBDBD;
+}
+
+.header__nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+        flex-wrap: wrap;
+}
+
+.header__sub {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__link {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: black
+}
+
+.active {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F5F5F5;
+    text-shadow: 2px 10px 10px #F5F5F5;
+}
+
+.isDarkTwo {
+    background-color: #8d8d8d;
+    color: #F5F5F5;
+}

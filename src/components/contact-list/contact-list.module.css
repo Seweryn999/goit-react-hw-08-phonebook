@@ -1,0 +1,38 @@
+.contactList {
+    padding: 6px;
+    background-color: #BDBDBD;
+    border-radius: 3px;
+}
+
+.contactList__item {
+    list-style-type: none;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    font-weight: bold;
+    color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.contactList__name {
+    flex: 1
+}
+
+.contactList__number {
+    text-align: center;
+    flex: 2
+}
+
+.contactList__item:first-child {
+    border-top: 0px;
+}
+
+.contactList__item:last-child {
+    border-bottom: 0px;
+}
+
+.isDarkTwo {
+    background-color: #8d8d8d;
+    color: #dfdfdf
+}

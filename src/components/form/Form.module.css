@@ -1,0 +1,23 @@
+.form {
+    /* border: 2px solid #E0E0E0; */
+    border-radius: 3px;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BDBDBD;
+    color: #F5F5F5;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px
+}
+
+.form__label {
+    /* color: #F5F5F5; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.isDarkOne {
+    background-color: #8d8d8d;
+    color: #dfdfdf;
+}
